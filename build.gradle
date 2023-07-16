@@ -25,13 +25,3 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
-
-sonarqube {
-	properties {
-		// SonarQube 프로젝트 설정
-		property "sonar.projectKey", "HH981010_spring-study"
-		property "sonar.host.url", "https://sonarcloud.io"
-		// 추가 설정 (옵션)
-		// property "sonar.login", "sonarqube-token"
-		// property "sonar.coverage.jacoco.xmlReportPaths", "build/jacoco/test/jacocoTestReport.xml"
-	}
