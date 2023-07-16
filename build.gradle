@@ -28,6 +28,7 @@ tasks.named('test') {
 
 sonarqube {
 	properties {
+		property 'sonar.organization', 'road-maker'
 		property 'sonar.projectKey', 'road-maker_road-maker-spring'
 		property 'sonar.host.url', 'https://sonarcloud.io'
 		// 기타 설정
